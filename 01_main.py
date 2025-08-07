@@ -7,7 +7,7 @@ Gun = 0
 import random
 while True:
     computerchoice= random.choice([-1, 0, 1])    # for random choice
-    computer=computerchoice  # this output is -1 or 0 or 1 (working on if, elif statement)
+    computer=computerchoice  # output is -1 or 0 or 1 (working on if, elif statement)
     computerdict= {1:'Snake', -1: 'Water', 0: 'Gun' }
 
     youinpt=input("Enter a key between 'S', 'W', 'G': ").lower()     # lower case⭐
@@ -40,3 +40,4 @@ while True:
             print("You loose 🤡")
         elif (computer==0 and you==-1): 
             print("You win 😎")
+
