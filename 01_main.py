@@ -1,4 +1,4 @@
-### Snake-Water-Gun game:  (11th June 2025)
+### Snake-Water-Gun game:
 '''
 Snake = 1
 Water = -1
@@ -40,4 +40,5 @@ while True:
             print("You loose 🤡")
         elif (computer==0 and you==-1): 
             print("You win 😎")
+
 
